@@ -72,13 +72,13 @@
     <h1>Create a burger!</h1>
 		<section class="protein"> <!-- Form Field Text Input -->
         	<label for="patty">What type of protein would you like?</label>
-    		<input type="text" name="patty" id="patty">
+    		<input type="text" name="patty" id="patty" required>
         </section>
         <hr>
 	
         <section class="patties"> <!-- Form Field Number Input -->
           	<label for="amount">How many patties would you like?</label>
-          	<input type="number" name="amount" id="amount">
+          	<input type="number" name="amount" id="amount" required>
         </section>
         <hr>
 				
@@ -122,7 +122,7 @@
 
 	    <section class="sauce-selection"> <!--Datalist -->
 			<label for="sauce">What type of sauce would you like?</label>
-          	<input type="text" list="sauces" id="sauce" name="sauce">
+          	<input type="text" list="sauces" id="sauce" name="sauce" required>
 			  <datalist id="sauces">
             	<option value="Ketchup"></option>
             	<option value="Mayo"></option>
