@@ -72,13 +72,13 @@
     <h1>Create a burger!</h1>
 		<section class="protein"> <!-- Form Field Text Input -->
         	<label for="patty">What type of protein would you like?</label>
-    		<input type="text" name="patty" id="patty" required>
+    		<input type="text" name="patty" id="patty" minlength="10" maxlength="500" required>
         </section>
         <hr>
 	
         <section class="patties"> <!-- Form Field Number Input -->
           	<label for="amount">How many patties would you like?</label>
-          	<input type="number" name="amount" id="amount" min="1" max="4">
+          	<input type="number" name="amount" id="amount" min="1" max="4" required>
         </section>
         <hr>
 				
