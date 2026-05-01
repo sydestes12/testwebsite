@@ -3,20 +3,24 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
   border: 5px solid green;
   padding: 20px 10px;
+  box-sizing: border-box;
 }
 
 table {
   border: 5px solid purple;
   background-color: pink;
   padding: 20px 10px;
+  box-sizing: border-box;
 }
 
 table row {
   border: 5px solid black;
   padding: 20px 10px;
+  box-sizing: border-box;
 }
 
 form {
   border: 5px solid orange;
   padding: 20px 10px;
+  box-sizing: border-box;
 }
